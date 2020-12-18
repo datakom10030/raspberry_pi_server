@@ -1,0 +1,88 @@
+{
+  "sensor-config": {
+    "#####1": {
+      "robot": "unit1",
+      "type": "temperature",
+      "controlType": "reverse",
+      "controlledItem": true,
+      "setpoint": "25"
+    },
+    "#####2": {
+      "robot": "unit1",
+      "type": "co2",
+      "controlType": "direct",
+      "controlledItem": true,
+      "setpoint": "600"
+    },
+    "#####3": {
+      "unit": "unit2",
+      "type": "temperature",
+      "controlType": "direct",
+      "controlledItem": true,
+      "setpoint": 23.5
+    },
+    "#####4": {
+      "unit": "unit2",
+      "type": "co2",
+      "controlType": "reversed",
+      "controlledItem": true,
+      "setpoint": 400
+    },
+    "dsf": {
+      "unit": "unit2",
+      "type": "co2",
+      "controlType": "reversed",
+      "controlledItem": true,
+      "setpoint": 400
+    },
+    "aaa": {
+      "unit": "unit2",
+      "type": "co2",
+      "controlType": "reversed",
+      "controlledItem": true,
+      "setpoint": 400
+    },
+    "000001": {
+      "robot": "000003",
+      "type": "temperature",
+      "controlType": "reverse",
+      "controlledItem": true,
+      "setpoint": "30"
+    },
+    "000002": {
+      "robot": "000003",
+      "type": "co2",
+      "controlType": "none",
+      "controlledItem": false,
+      "setpoint": 0
+    },
+    "000003": {
+      "robot": "000003",
+      "type": "temperature",
+      "controlType": "none",
+      "controlledItem": false,
+      "setpoint": 0
+    },
+    "001": {
+      "robot": "001",
+      "type": "temperature",
+      "controlType": "reverse",
+      "controlledItem": true,
+      "setpoint": "40"
+    },
+    "002": {
+      "robot": "001",
+      "type": "co2",
+      "controlType": "direct",
+      "controlledItem": true,
+      "setpoint": "500"
+    },
+    "003": {
+      "robot": "001",
+      "type": "temperature",
+      "controlType": "none",
+      "controlledItem": false,
+      "setpoint": 0
+    }
+  }
+}
